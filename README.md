@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Supply Pulse
 
 **A real-time + batch data platform that keeps prices and stock of q-commerce vendors fresh and trustworthy.**
@@ -149,19 +148,4 @@ In Kafka UI open `ops.public.vendor_items` (Newest First) to see the `"op":"u"` 
 - Airflow runs in standalone mode (SQLite, SequentialExecutor) to keep the demo light. Its admin password and connections live inside the container, so `docker compose down` removes them.
 - GOLD is rebuilt table by table (no blue/green swap); the backup and restore tasks are the safety net.
 
-## Team
 
-<!-- TODO: replace with the five real names and roles -->
-| Name | Role |
-| --- | --- |
-| Donia Mostafa | Batch pipeline: Snowflake BRONZE, dbt (SILVER/GOLD), Airflow orchestration and recovery |
-| [Name] | [Role] |
-| [Name] | [Role] |
-| [Name] | [Role] |
-| [Name] | [Role] |
-
-Thank you to my teammates for a great week of building and learning together.
-=======
-# Supply-Pulse
-A real-time + batch data platform that keeps prices and stock of q-commerce vendors fresh and trustworthy.
->>>>>>> 21d113dfc23b4d469a24b870a5bd5e49d501cb28
